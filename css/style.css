@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+@font-face {
+    font-family: "Righteous";
+    src: url("../fonts/BalooChettan-Regular.ttf");
+    src: url("../fonts/BalooChettan-Regular.ttf");
+}
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        
+        font-size: 14px;
+        font-family: Poppins;
+    line-height: 1.8;
+        font-weight: normal;
+        overflow-x: hidden;
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    width: 80%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-image: url(../images/banner-bg.png);
+    height: 120vh;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+header .containe{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.logo{
+    margin: 20px 10px;
+}
+nav{
+    margin: 20px 0;
+}
+nav a{
+    padding:0 15px;
+    text-decoration: none;
+    color: #111;
+    font-size: 16px;
+    
+
+}
+.search{
+    margin: 20px 20px;
+}
+.search img{
+    padding: 0 10px;
+}
+.search a{
+    padding: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #111;
+    transition:  0.6s;
+    text-transform: uppercase;
+}
+.search a:hover {
+    color: #ffb607;
+}
+nav a:hover{
+    color: #ffb607;
+}
+.contt{
+ display: flex;
+ justify-content: center ;
+ align-items: center;
+ height: 50%;
+}
+
+.part1 .cont h1{
+    font-size: 100px;
+font-weight: 400;
+
+text-align: center;
+    columns: #111;
+   padding: 90px 0 10px;
+margin: 0;
+  
+  
+}
+.part1 .cont p{
+    text-align: center;
+    width: 600px;
+    margin: 0 200px;
+   color: #3d2f2f;
+   font-size: 16px;
+   margin-top: 10px;
+
+
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;
+   margin-top: 25%;
+   
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #ffb607;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+.btn a:hover{
+    background-color: #111;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    margin-bottom: 40px;
+}
+
+.header h2{
+    font-weight: 400;
+    font-size: 36px;
+    
+}
+.pp{
+    display: flex;
+    justify-content: space-between;
+    width: calc(90/4);
+}
+.card{
+    text-align: center;
+    margin: 0 30px;
+    transition: 0.5s;
+}
+.card h2{
+    font-weight: 500;
+    padding: 20px 10px;
+}
+.part2 .card .btn2{
+    
+    padding: 40px;
+}
+.part2 .card .btn2 a{
+text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #ffb607;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
+  
+
+.card:hover {
+    transform: scale(1.3);
+
+}
+.part3 {
+    margin-top: 10%;
+    background-color: #ffb607;
+    width: 100%;
+   
+}
+.ccc{
+    display: flex;
+        justify-content: space-around;
+}
+.content{
+    padding-top: 15%;
+   
+}
+.content h2{
+    font-weight: 400;
+    color: white;
+    font-size: 33px;
+    letter-spacing: 1.5px;
+}
+.content p{
+    color: white;
+    padding-top: 7%;
+}
+.img2{
+    padding-top: 15%;
+    padding-left: 5%;
+}
